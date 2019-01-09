@@ -128,7 +128,7 @@ posall=function(rtrue,raux,ppv,lam1e,lam0e,lam1c,lam0c,tau,raccrual,powerdesired
     total=N1/a+tau
   }
 
-  E=measure(lam1e=lam1e,lam0e=lam0e,lam1c=lam1c,lam0c=lam0c,total=total,r=r,N1=N1,a=a,N2=N2,rs=rs,ns=ns,rt=rt,ppv=ppv);
+  E=measure(lam1e=lam1e,lam0e=lam0e,lam1c=lam1c,lam0c=lam0c,total=total,r=r,N1=N1,a=a,N2=N2,rs=rs,ns=ns,rt=rt,ppv=ppv,costscr=costscr,costtrt=costtrt,costfol=costfol,costtest=costtest);
   #E=c(Nbmin,Namin,C[1],N1c,N2,ns,N1)
   c(E) ##Each row contains (PPV,r,rt,N_BSD,N_BED,Ns,pi0,Cost_BSD,Cost_BED)
 }
