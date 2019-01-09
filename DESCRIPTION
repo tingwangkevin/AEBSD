@@ -1,0 +1,10 @@
+Package: AEBSD
+Title: Calculate sample size of AEBSD and compare AEBSD with BSD
+Version: 0.0.0.9000
+Authors@R: person("Ting", "Wang", email = "tingwang@live.unc.edu", role = c("aut", "cre"))
+Description: This package provides sample size calculation of AEBSD for different test requirements and its comparison with BSD.
+Depends: R (>= 3.5.2)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0.9000
